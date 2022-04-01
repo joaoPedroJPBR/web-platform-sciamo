@@ -1,7 +1,8 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <title>Conversão de real para dólar</title>
+    <title>Dólar-Real Calculator</title>
+    <script src = "script.js" defer ></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="icon" href="https://bit.ly/img-jpbr" />
   </head>
@@ -11,23 +12,26 @@
     }
   </style>
   <body>
-    <h1>Converta valores de real para dólar e vice e versa</h1>
+    <div class = "container">
+    <h1>Dólar-Real Calculator</h1>
     <p>
       Digite a taxa atual do dólar: 
       <input id="inputTaxa" type="number" />
-      <button id = "btTaxa">Inserir</button>
-    </p>
-    <hr>
-    <p>
-      Digite um valor em dólar:
-      <input id="inputDolar" type="number" />
-      <button id = "btDolar">Inserir</button>
+      <button id = "btInsere">Inserir</button>
+      <button id = "btDelete">Delete</button>
     </p>
     <hr>
     <p>
       Digite um valor em real:
-      <input id ="ïnputReal" type="number" />
-      <button id="btReal">Inserir</button>
+      <input id="inputReal" type="number" />
+      <button onclick="converterRD()" id = "buttonRD">Converter</button>
+    </p>
+    <hr>
+    <p>
+      Digite um valor em dólar:
+      <input id ="ïnputDolar" type="number" />
+      <button onclick="converterDR()" id = "buttonDR">Converter</button>
+    </div>
     </p>
     <hr>
   </body>
