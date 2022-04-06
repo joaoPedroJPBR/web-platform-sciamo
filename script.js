@@ -25,6 +25,6 @@ function converterDR() {//convertendo de dólar para real
   }
   real = dolar.value / taxa.value;
   console.log(real);
-  alert('$R'+real);
+  alert('R$'+real);
 }
 

@@ -4,12 +4,13 @@ const buttonDelete = document.getElementById("btZerar")
 buttonIn.disable = true; 
 buttonDelete.disable = true; 
 
-var cont = 0;
+let cont = 0;
 function incrementar () {
   alert(++cont)
 }
 
 function zerar () {
-alert('Contador = '+cont)
+  cont = 0;
+  alert('Contador zerado!')
 }
 
