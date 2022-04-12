@@ -1,8 +1,7 @@
-pre {
-  background-color: antiquewhite;
+body {
+  background-color: aquamarine;
   text-align: center;
 }
-
 p::first-letter {
   color: #ff0000;
   font-size: xx-large;
